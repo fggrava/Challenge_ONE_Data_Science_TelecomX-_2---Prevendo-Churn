@@ -65,13 +65,18 @@ Apesar da queda na acurácia e precisão, o F1-score foi o melhor, indicando equ
    
 Com base nos coeficientes da Regressão Logística, os principais fatores foram:
 
-| Variável | Coeficiente | Impacto | Importância (%) | 
-| tempo_inativo | +1.25 | ↑ Aumenta evasão | 18.2% | 
-| engajamento | -0.98 | ↓ Reduz evasão | 15.4% | 
-| feedback_negativo | +0.75 | ↑ Aumenta evasão | 12.1% | 
-| satisfacao | -0.55 | ↓ Reduz evasão | 10.3% | 
-| idade | +0.60 | ↑ Aumenta evasão | 9.8% | 
-| uso_servico | -0.45 | ↓ Reduz evasão | 8.7% | 
+| Nº | Variável                                | Coeficiente | Impacto           |
+|----|-----------------------------------------|-------------|-------------------|
+| 1  | customer_tenure                         | -1.306826   | ↓ Reduz evasão    |
+| 2  | internet_InternetService_Fiber optic    | +0.778793   | ↑ Aumenta evasão  |
+| 3  | internet_InternetService_No             | -0.711993   | ↓ Reduz evasão    |
+| 4  | account_Charges_Total                   | +0.640617   | ↑ Aumenta evasão  |
+| 5  | Contas_Diarias                          | -0.567651   | ↓ Reduz evasão    |
+| 6  | account_Charges_Monthly                 | -0.548662   | ↓ Reduz evasão    |
+| 7  | account_Contract_Two year               | -0.545887   | ↓ Reduz evasão    |
+| 8  | account_Contract_One year               | -0.290950   | ↓ Reduz evasão    |
+| 9  | internet_StreamingMovies                | +0.269988   | ↑ Aumenta evasão  |
+| 10 | internet_StreamingTV                    | +0.269263   | ↑ Aumenta evasão  |
 
 
 4. 🧠 Interpretação dos Fatores
