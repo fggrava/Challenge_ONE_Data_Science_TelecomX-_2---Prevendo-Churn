@@ -83,33 +83,49 @@ Com base nos coeficientes da Regressão Logística, os principais fatores foram:
 
 
 4. 🧠 Interpretação dos Fatores
+   
 🔺 Fatores que aumentam a evasão:
+
 Tempo inativo: clientes que passam muito tempo sem usar o serviço.
+
 Feedback negativo: insatisfação explícita.
+
 Idade: certos grupos etários podem ter menor fidelidade.
+
 🔻 Fatores que reduzem a evasão:
+
 Engajamento: uso frequente e interação com o serviço.
+
 Satisfação: clientes satisfeitos tendem a permanecer.
+
 Uso contínuo do serviço: quanto mais integrado o cliente, menor a chance de evasão.
-5. 🛡️ Estratégias de Retenção
+
+6. 🛡️ Estratégias de Retenção
+   
 Com base nos fatores identificados, propõem-se as seguintes ações:
 
 🔹 1. Reengajamento de clientes inativos
 Campanhas personalizadas para usuários com baixa atividade.
 Ofertas exclusivas para retorno ao serviço.
+
 🔹 2. Monitoramento de feedback
 Implementar análise de sentimento em canais de atendimento.
 Responder proativamente a reclamações.
+
 🔹 3. Programas de fidelização
 Benefícios para clientes com alto engajamento.
 Reconhecimento de usuários recorrentes.
+
 🔹 4. Segmentação por perfil
 Estratégias específicas para faixas etárias com maior risco.
 Comunicação personalizada por comportamento de uso.
+
 🔹 5. Acompanhamento de satisfação
 Pesquisas regulares e ações corretivas rápidas.
 Painel de indicadores de satisfação para tomada de decisão.
+
 5. 📌 Recomendação Final
+   
 Utilizar o modelo de Regressão Logística com melhorias e threshold ajustado como ferramenta principal de previsão, aliado a um sistema de monitoramento contínuo dos fatores críticos. A combinação de inteligência preditiva com ações personalizadas pode reduzir significativamente a evasão.
 
 ---
