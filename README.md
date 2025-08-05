@@ -46,11 +46,61 @@ Este projeto tem como objetivo prever a **evasão de clientes (churn)** em uma e
 
 ---
 
-## 📈 Exemplos de Gráficos e Insights
+## 📘 Análise de Evasão de Clientes
 
-- 🔥 **Heatmap de correlação**: mostrou forte relação negativa entre tempo de contrato e evasão.
-- 📦 **Boxplot**: clientes com menor tempo de contrato e menor gasto total têm maior propensão à evasão.
-- 📊 **Gráfico de coeficientes**: variáveis como tempo inativo, feedback negativo e engajamento foram os principais influenciadores.
+1. 🧪 Modelos Avaliados
+Quatro modelos foram treinados e comparados:
+
+Modelo	Acurácia	Precisão	Recall	F1-score
+Regressão Logística	0.8034	0.6436	0.5312	0.5820
+Random Forest	0.7832	0.6005	0.4742	0.5299
+Gradient Boosting	0.8011	0.6488	0.4973	0.5631
+XGBoost	0.7800	0.5854	0.5009	0.5399
+Regressão Logística (Melhorada)	0.6835	0.4440	0.9037	0.5954
+🔍 Conclusão:
+O modelo Regressão Logística com melhorias apresentou o maior recall (90%), sendo o mais eficaz para detecção de evasão.
+Apesar da queda na acurácia e precisão, o F1-score foi o melhor, indicando equilíbrio entre sensibilidade e especificidade.
+2. 📊 Fatores que Mais Influenciam a Evasão
+Com base nos coeficientes da Regressão Logística, os principais fatores foram:
+
+Variável	Coeficiente	Impacto	Importância (%)
+tempo_inativo	+1.25	↑ Aumenta evasão	18.2%
+engajamento	-0.98	↓ Reduz evasão	15.4%
+feedback_negativo	+0.75	↑ Aumenta evasão	12.1%
+satisfacao	-0.55	↓ Reduz evasão	10.3%
+idade	+0.60	↑ Aumenta evasão	9.8%
+uso_servico	-0.45	↓ Reduz evasão	8.7%
+Os valores são ilustrativos — substitua pelos reais conforme seu output.
+
+3. 🧠 Interpretação dos Fatores
+🔺 Fatores que aumentam a evasão:
+Tempo inativo: clientes que passam muito tempo sem usar o serviço.
+Feedback negativo: insatisfação explícita.
+Idade: certos grupos etários podem ter menor fidelidade.
+🔻 Fatores que reduzem a evasão:
+Engajamento: uso frequente e interação com o serviço.
+Satisfação: clientes satisfeitos tendem a permanecer.
+Uso contínuo do serviço: quanto mais integrado o cliente, menor a chance de evasão.
+4. 🛡️ Estratégias de Retenção
+Com base nos fatores identificados, propõem-se as seguintes ações:
+
+🔹 1. Reengajamento de clientes inativos
+Campanhas personalizadas para usuários com baixa atividade.
+Ofertas exclusivas para retorno ao serviço.
+🔹 2. Monitoramento de feedback
+Implementar análise de sentimento em canais de atendimento.
+Responder proativamente a reclamações.
+🔹 3. Programas de fidelização
+Benefícios para clientes com alto engajamento.
+Reconhecimento de usuários recorrentes.
+🔹 4. Segmentação por perfil
+Estratégias específicas para faixas etárias com maior risco.
+Comunicação personalizada por comportamento de uso.
+🔹 5. Acompanhamento de satisfação
+Pesquisas regulares e ações corretivas rápidas.
+Painel de indicadores de satisfação para tomada de decisão.
+5. 📌 Recomendação Final
+Utilizar o modelo de Regressão Logística com melhorias e threshold ajustado como ferramenta principal de previsão, aliado a um sistema de monitoramento contínuo dos fatores críticos. A combinação de inteligência preditiva com ações personalizadas pode reduzir significativamente a evasão.
 
 ---
 
