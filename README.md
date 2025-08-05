@@ -51,13 +51,16 @@ Este projeto tem como objetivo prever a **evasão de clientes (churn)** em uma e
 1. 🧪 Modelos Avaliados
 Quatro modelos foram treinados e comparados:
 
-Modelo	Acurácia	Precisão	Recall	F1-score
-Regressão Logística	0.8034	0.6436	0.5312	0.5820
-Random Forest	0.7832	0.6005	0.4742	0.5299
-Gradient Boosting	0.8011	0.6488	0.4973	0.5631
-XGBoost	0.7800	0.5854	0.5009	0.5399
-Regressão Logística (Melhorada)	0.6835	0.4440	0.9037	0.5954
+| Modelo                          | Acurácia | Precisão | Recall  | F1-score |
+|--------------------------------|----------|----------|---------|----------|
+| Regressão Logística            | 0.8034   | 0.6436   | 0.5312  | 0.5820   |
+| Random Forest                  | 0.7832   | 0.6005   | 0.4742  | 0.5299   |
+| Gradient Boosting              | 0.8011   | 0.6488   | 0.4973  | 0.5631   |
+| XGBoost                        | 0.7800   | 0.5854   | 0.5009  | 0.5399   |
+| Regressão Logística (Melhorada)| 0.6835   | 0.4440   | 0.9037  | 0.5954   |
+
 🔍 Conclusão:
+
 O modelo Regressão Logística com melhorias apresentou o maior recall (90%), sendo o mais eficaz para detecção de evasão.
 Apesar da queda na acurácia e precisão, o F1-score foi o melhor, indicando equilíbrio entre sensibilidade e especificidade.
 
