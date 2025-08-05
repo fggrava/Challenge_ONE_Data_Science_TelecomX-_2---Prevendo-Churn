@@ -46,9 +46,10 @@ Este projeto tem como objetivo prever a **evasão de clientes (churn)** em uma e
 
 ---
 
-## 📘 Análise de Evasão de Clientes
+## 📘 Análise dos modelos
 
 1. 🧪 Modelos Avaliados
+   
 Quatro modelos foram treinados e comparados:
 
 | Modelo                          | Acurácia | Precisão | Recall  | F1-score |
@@ -150,7 +151,7 @@ Este projeto fornece uma base sólida para prever churn e tomar decisões estrat
 
 ## 🧠 Autor
 
-Projeto desenvolvido por Fernando Grava como projeto final do programa ONE - ORACLE.
+Projeto desenvolvido por Fernando Grava como projeto final do programa ONE => ORACLE + ALURA.
 
 
 
