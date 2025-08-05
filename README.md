@@ -60,19 +60,21 @@ Regressão Logística (Melhorada)	0.6835	0.4440	0.9037	0.5954
 🔍 Conclusão:
 O modelo Regressão Logística com melhorias apresentou o maior recall (90%), sendo o mais eficaz para detecção de evasão.
 Apesar da queda na acurácia e precisão, o F1-score foi o melhor, indicando equilíbrio entre sensibilidade e especificidade.
+
 2. 📊 Fatores que Mais Influenciam a Evasão
+   
 Com base nos coeficientes da Regressão Logística, os principais fatores foram:
 
-Variável	Coeficiente	Impacto	Importância (%)
-tempo_inativo	+1.25	↑ Aumenta evasão	18.2%
-engajamento	-0.98	↓ Reduz evasão	15.4%
-feedback_negativo	+0.75	↑ Aumenta evasão	12.1%
-satisfacao	-0.55	↓ Reduz evasão	10.3%
-idade	+0.60	↑ Aumenta evasão	9.8%
-uso_servico	-0.45	↓ Reduz evasão	8.7%
-Os valores são ilustrativos — substitua pelos reais conforme seu output.
+| Variável | Coeficiente | Impacto | Importância (%) | 
+| tempo_inativo | +1.25 | ↑ Aumenta evasão | 18.2% | 
+| engajamento | -0.98 | ↓ Reduz evasão | 15.4% | 
+| feedback_negativo | +0.75 | ↑ Aumenta evasão | 12.1% | 
+| satisfacao | -0.55 | ↓ Reduz evasão | 10.3% | 
+| idade | +0.60 | ↑ Aumenta evasão | 9.8% | 
+| uso_servico | -0.45 | ↓ Reduz evasão | 8.7% | 
 
-3. 🧠 Interpretação dos Fatores
+
+4. 🧠 Interpretação dos Fatores
 🔺 Fatores que aumentam a evasão:
 Tempo inativo: clientes que passam muito tempo sem usar o serviço.
 Feedback negativo: insatisfação explícita.
@@ -81,7 +83,7 @@ Idade: certos grupos etários podem ter menor fidelidade.
 Engajamento: uso frequente e interação com o serviço.
 Satisfação: clientes satisfeitos tendem a permanecer.
 Uso contínuo do serviço: quanto mais integrado o cliente, menor a chance de evasão.
-4. 🛡️ Estratégias de Retenção
+5. 🛡️ Estratégias de Retenção
 Com base nos fatores identificados, propõem-se as seguintes ações:
 
 🔹 1. Reengajamento de clientes inativos
